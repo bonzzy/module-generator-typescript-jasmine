@@ -1,0 +1,31 @@
+{
+    "structure": [
+      {
+        "name": "NpmModuleName",
+        "children": [
+          {
+            "name": "src",
+            "children": [
+              {
+                "name": "typings",
+                "children": []
+              },
+              {
+                "name": "helpers",
+                "children": []
+              },
+              {
+                "name": "index.ts"
+              }
+            ]
+          },
+          {
+            "name": "package.json"
+          },
+          {
+            "name": ".npmrc"
+          }
+        ]
+      }
+    ]
+}

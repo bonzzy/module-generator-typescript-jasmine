@@ -1,0 +1,24 @@
+{
+  "name": "module-generator-typescript-jasmine",
+  "version": "1.0.0",
+  "description": "Used to create private module structure",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Tomislav Fabeta",
+  "preferGlobal": true,
+  "license": "ISC",
+  "dependencies": {
+    "folder-structure-generator": "^1.0.5",
+    "minimist": "^1.2.0",
+    "shelljs": "^0.8.1"
+  },
+  "bin": {
+    "generate-module": "generator.js"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.4",
+    "jasmine": "^2.9.0",
+    "jasmine-core": "^2.9.1",
+    "jasmine-ts": "^0.2.1"
+  }
+}
