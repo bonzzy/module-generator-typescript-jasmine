@@ -1,7 +1,7 @@
 # Module boilerplate generator, ts+jasmine
 Npm module boilerplate generator, node+typescript+jasmine
 ## Installation
-`npm i module-generator-typescript-jasmine `
+`npm i module-generator-typescript-jasmine -g`
 ## Usage
 `generate-module ModuleName -registry=https://registry.npmjs.org/ -prefix=@scope/
 `
