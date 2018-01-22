@@ -23,6 +23,11 @@ if (paramExists('name') || argv._.length >= 1) {
 
 if (paramExists('registry')) {
     packageModel.registry = getParamValue('registry');
+    npmrcModel.registry = getParamValue('registry');
+}
+
+if (paramExists('prefix')) {
+    packageModel.prefix = getParamValue('prefix');
 }
 
 console.log('  ');

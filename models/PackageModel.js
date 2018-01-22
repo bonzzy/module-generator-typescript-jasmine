@@ -41,7 +41,6 @@ class PackageModel extends TemplateModel {
     get prefix() {
         return this.params.prefix;
     }
-
 }
 
 module.exports.PackageModel = PackageModel;
